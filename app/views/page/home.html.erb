@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{background-color: darkseagreen;
+                background-attachment:fixed;
+                height:100%;
+            }
+            a{
+              font-family: verdana; 
+            }
+            h1{font-family: verdana; 
+                font-size: 200%;
+                color: blueviolet}
+            p{font-family: verdana}
+            table{width: 100%;
+                position: absolute;
+                left: 0;
+                right: 0;
+                border-collapse: collapse;
+                padding: 50%;
+            }
+            td{
+                font-family: verdana;
+                color:darkgreen;
+                border:  3px solid black;
+                border-bottom-color: transparent;
+                border-top-color: transparent;
+            }
+        </style>
+    </head>
+	<body>
+		<h1 style = "text-align:center"> Homepage</h1>
+        <center><img src = "https://s-media-cache-ak0.pinimg.com/originals/8f/e2/5b/8fe25b6bb79dc1e7f72aacd662614dce.gif" alt="dog" style="width:30%; height:30%" align = "center"></center></img>
+        <br>
+		<table>
+            <tr> 
+                <td style="width:50%" align="center">Welcome to the homepage</td>
+                <td style="width:50%" align="center">We love dogs</td>
+            </tr>
+    </table>
+    <br>
+    <%= link_to 'About',about_path%>
+	</body>
+</html>
